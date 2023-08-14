@@ -1,0 +1,45 @@
+
+.modal{
+    width: 250px;
+    height: 250px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+    background-color: aqua;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    /* margin: 25% ; */
+}
+
+.modal-btn{
+    background-color: green;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-shadow: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.cross{
+    background-color: crimson;
+    color: white;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.modal-container{
+    width: 1280px;
+    height: 70%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: flex;
+
+}
