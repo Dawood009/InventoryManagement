@@ -18,21 +18,21 @@ function App() {
         {
           id: 1,
           item: "Apples",
-          quantity: 20,
+          quantity: Number(20),
           unit: "Kg"
           
         },
         {
           id: 2,
           item: "Bananas",
-          quantity: 25,
+          quantity: Number(25),
           unit: "Dozen"
           
         },
         {
           id: 3,
           item: 'Milk',
-          quantity: 18,
+          quantity: Number(18),
           unit: 'Litre'
           
         }

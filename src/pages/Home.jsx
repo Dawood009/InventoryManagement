@@ -27,7 +27,7 @@ export const Home = ({items,setItems}) => {
      setItems(items.map(itm=>{
       if(itm.id===added){
         
-        return {...itm, quantity: itm.quantity + newQuantity }
+        return {...itm, quantity: Number(itm.quantity) + Number(newQuantity) }
         
       
       } else {
@@ -43,7 +43,7 @@ export const Home = ({items,setItems}) => {
 
     setItems(items.map(itm=>{
       if(itm.id===added){
-        return {...itm,  quantity: itm.quantity - newQuantity }
+        return {...itm,  quantity: Number(itm.quantity) - Number(newQuantity) }
         
      
       } else {
